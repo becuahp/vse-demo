@@ -1,0 +1,22 @@
+[debug] [2023-03-27T17:08:31.494Z] ----------------------------------------------------------------------
+[debug] [2023-03-27T17:08:31.497Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Admin\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js open
+[debug] [2023-03-27T17:08:31.498Z] CLI Version:   11.25.1
+[debug] [2023-03-27T17:08:31.499Z] Platform:      win32
+[debug] [2023-03-27T17:08:31.499Z] Node Version:  v18.13.0
+[debug] [2023-03-27T17:08:31.501Z] Time:          Tue Mar 28 2023 00:08:31 GMT+0700 (GMT+07:00)
+[debug] [2023-03-27T17:08:31.502Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-03-27T17:08:31.610Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-03-27T17:08:31.611Z] > authorizing via signed-in user (ad.khaibui@gmail.com)
+[debug] [2023-03-27T17:08:31.611Z] [iam] checking project vse-demo for permissions ["firebase.projects.get"]
+[debug] [2023-03-27T17:08:31.616Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/vse-demo:testIamPermissions [none]
+[debug] [2023-03-27T17:08:31.616Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/vse-demo:testIamPermissions x-goog-quota-user=projects/vse-demo
+[debug] [2023-03-27T17:08:31.616Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/vse-demo:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2023-03-27T17:08:32.673Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/vse-demo:testIamPermissions 200
+[debug] [2023-03-27T17:08:32.674Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/vse-demo:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2023-03-27T17:08:32.675Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/vse-demo [none]
+[debug] [2023-03-27T17:08:33.071Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/vse-demo 200
+[debug] [2023-03-27T17:08:33.073Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/vse-demo {"projectId":"vse-demo","projectNumber":"850095166884","displayName":"vse-demo","name":"projects/vse-demo","resources":{"hostingSite":"vse-demo","realtimeDatabaseInstance":"vse-demo-default-rtdb"},"state":"ACTIVE","etag":"1_798d6ff5-3ccd-4926-ac5e-87b3b7537137"}
+[debug] [2023-03-27T17:08:33.077Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/vse-demo [none]
+[debug] [2023-03-27T17:08:33.440Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/vse-demo 200
+[debug] [2023-03-27T17:08:33.441Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/vse-demo {"projectId":"vse-demo","projectNumber":"850095166884","displayName":"vse-demo","name":"projects/vse-demo","resources":{"hostingSite":"vse-demo","realtimeDatabaseInstance":"vse-demo-default-rtdb"},"state":"ACTIVE","etag":"1_798d6ff5-3ccd-4926-ac5e-87b3b7537137"}
